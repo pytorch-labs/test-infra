@@ -1,0 +1,21 @@
+# scale-config.yml:
+#   Powers what instance types are available for GHA auto-scaled
+#   runners. Runners listed here will be available as self hosted
+#   runners, configuration is directly pulled from the main branch.
+#
+#
+runner_types:
+  linux.2xlarge:
+    disk_size: 150
+    instance_type: c5.2xlarge
+    is_ephemeral: false
+    max_available: 100
+    os: linux
+    ami: al2023-ami-2023.5.20240701.0-kernel-6.1-x86_64
+  linux.4xlarge:
+    disk_size: 150
+    instance_type: c5.4xlarge
+    is_ephemeral: false
+    max_available: 100
+    os: linux
+    ami: al2023-ami-2023.5.20240701.0-kernel-6.1-x86_64
