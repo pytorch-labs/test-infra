@@ -26,3 +26,10 @@ runner_types:
     max_available: 100
     os: linux
     ami: al2023-ami-2023.5.202*-kernel-6.1-x86_64
+  linux.8xlarge.nvidia.gpu:
+    disk_size: 150
+    instance_type: g3.8xlarge
+    is_ephemeral: false
+    max_available: 100
+    os: linux
+    ami: al2023-ami-2023.5.202*-kernel-6.1-x86_64
