@@ -44,5 +44,13 @@ runner_types:
     disk_size: 150
     instance_type: g5.12xlarge
     is_ephemeral: false
+    max_available: 100
+    os: linux
+    ami: al2023-ami-2023.6.202*-kernel-6.1-x86_64
+  linux.g6e.12xlarge.nvidia.gpu:
+    disk_size: 150
+    instance_type: g6e.12xlarge
+    is_ephemeral: false
+    max_available: 100
     os: linux
     ami: al2023-ami-2023.6.202*-kernel-6.1-x86_64
